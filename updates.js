@@ -23,7 +23,7 @@ var map = L.map('map'),
         })
         .catch(error);
     }, {
-        interval: 1000
+        interval: 500
     }).addTo(map);
 
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
